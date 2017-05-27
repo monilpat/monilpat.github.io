@@ -1,488 +1,75 @@
-
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+<html>
 <head>
-
-  <title>Bibek Ghimire | Developer</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Favicon -->
-  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css"
-        media="(max-width: 800px)"
-        href="css/small.css">
-
-  <!-- <link rel="stylesheet" type="text/css"
-        media="(min-width: 901px) and (max-width: 1000px)"
-        href="css/medium.css"> -->
-
-  <link rel="stylesheet" type="text/css"
-        media="(min-width: 801px)"
-        href="css/large.css">
-
-  <!-- Scripts -->
-  <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/main.js"></script>
-
+	<title></title>
 </head>
-
 <body>
+	<div class="container">
+		<div class="fakeDiv"></div>
+			<div class="aboutMe">
+				<div class="intro">
+					<h1>Monil Patel</h1>
+					<h2>About me</h2>
+					<p>I am a second year student at UCLA majoring in Computer Science. 
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+					</p>
+				</div>
 
-<nav id="navbar" class="flex">
-  <div class="nav_item"><a href="#profile">Profile</a></div>
-  <div class="nav_item"><a href="#projects">Projects</a></div>
-  <div class="nav_item"><a href="#contact">Contact</a></div>
-  <div class="nav_item"><a href="https://www.dropbox.com/s/fwecpoqked8f5vj/Resume.pdf?dl=0">Resume</a></div>
-</nav>
+				<div class="contact">
+					<h1>Let's talk!</h1>
+					<a>bryanw0ng@ucla.edu</a>
+					<a>6268412143</a>
+				</div>
+			</div>
 
+		<div class="content">
+			<div class="project">
+				<div class="dominant">
+					<img src="space.jpg"/>
+				</div>
+				<h1>Project title</h1>
+				<div class="projectSummary">
+					<h2>Date: 5/26/17</h2>
+					<h2>Role: Project lead</h2>
+					<h2>Demo: www.google.com</h2>
+				</div>
+				<div class="bar"></div>
+				<p class="projectDescription"><span>SPACE CODE</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing  t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<a href="http://www.google.com">Demo</a>
+			</div>
 
+			<div class="project">
+				<div class="dominant">
+					<img src="ocean.jpg"/>
+				</div>
+				<h1>Project title</h1>
+				<div class="projectSummary">
+					<h2>Date: 5/26/17</h2>
+					<h2>Role: Project lead</h2>
+					<h2>Demo: www.google.com</h2>
+				</div>
+				<div class="bar"></div>
+				<p class="projectDescription"><span>SPACE CODE</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing  t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<a href="http://www.google.com">Demo</a>
+			</div>
 
+			<div class="project">
+				<div class="dominant">
+					<img src="misty.jpg"/>
+				</div>
+				<h1>Project title</h1>
+				<div class="projectSummary">
+					<h2>Date: 5/26/17</h2>
+					<h2>Role: Project lead</h2>
+					<h2>Demo: www.google.com</h2>
+				</div>
+				<div class="bar"></div>
+				<p class="projectDescription"><span>SPACE CODE</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing  t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<a href="http://www.google.com">Demo</a>
+			</div>
+		</div>
 
-<div class="responsive-margins">
-
-  <header><h1>BIBEK GHIMIRE</h1></header>
-  <section id="header-image">
-    <img class="profile-pic" src="images/me.jpg">
-  </section>
-
-  <hr>
-
-  <section id="profile" class="scrollspy">
-      <div class="section-description red" id="who-i-am">
-        <!-- <div class="container"> -->
-          <h1>Who I Am</h1>
-
-          <p>Hi! My name is Bibek Ghimire and I am a
-            Computer Science & Engineering student at
-            the University of California - Los Angeles.</p>
-
-          <p>I'm a front-end web developer and an aspiring iOS
-            developer who's passionate about making
-            intuitive and expressive user experiences.</p>
-        <!-- </div> -->
-      </div>
-
-      <div id="profile-items" class="flex wrap horizontal">
-        <div class="md-half cell" id="tools-of-trade">
-          <div class="container vertical-padding">
-            <p>These are the tools of my trade:</p>
-            <div class="flex wrap horizontal">
-              <div class="trade-tool" id="">
-                <img src="images/icons/html.png">
-                <p>HTML</p>
-              </div>
-              <div class="trade-tool" id="">
-                <img src="images/icons/css.png">
-                <p>CSS</p>
-              </div>
-              <div class="trade-tool" id="">
-                <img src="images/icons/js.png">
-                <p>JS</p>
-              </div>
-              <div class="trade-tool" id="">
-                <img src="images/icons/jquery.png">
-                <p>jQuery</p>
-              </div>
-
-              <!-- Second row -->
-
-              <div class="trade-tool" id="">
-                <img src="images/icons/cpp.png">
-                <p>C++</p>
-              </div>
-              <div class="trade-tool" id="">
-                <img src="images/icons/swift.png">
-                <p>Swift</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="md-half cell" id="books">
-          <div class="container vertical-padding">
-            <p>If I'm not coding, there's a good chance I'm reading.</p>
-            <p>(These are my most recent reads.)</p>
-            <div id="bookshelf">
-              <p>Right now, I'm reading...</p>
-                <div class="shelf">
-                  <div class="shelf-padding">
-                  <div id="gr-widget-current" class="gr_widget">
-
-                    <div id="gr_grid_widget_1483820615">
-                        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-                      <div class="gr_grid_container">
-                        <div class="gr_grid_book_container"><a title="Algorithms to Live By: The Computer Science of Human Decisions" href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by"><img alt="Algorithms to Live By: The Computer Science of Human Decisions" border="0" src="https://images.gr-assets.com/books/1454296875m/25666050.jpg" /></a></div>
-                        <br style="clear: both"/><br/><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" href="https://www.goodreads.com/user/show/14950840-bibek">Bibek's favorite books »</a>
-                        <noscript><br/>Share <a href="/">book reviews</a> and ratings with Bibek, and even join a <a href="/group">book club</a> on Goodreads.</noscript>
-                      </div>
-                    </div>
-                    <script src="https://www.goodreads.com/review/grid_widget/14950840.Bibek's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=3&order=a&shelf=currently-reading&sort=date_added&widget_id=1483820615" type="text/javascript" charset="utf-8"></script>
-                  </div>
-
-                </div>
-                <div class="shelf-bottom"></div>
-                </div>
-                <p>And here's what I've read.</p>
-                <div class="shelf">
-                  <div class="shelf-padding">
-                  <!-- <p>and I recently read...</p> -->
-                  <div id="gr-widget-read" class="gr_widget">
-
-                    <div id="gr_grid_widget_1482116183">
-                  <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-                      <div class="gr_grid_container">
-                        <div class="gr_grid_book_container"><a title="The Martian" href="https://www.goodreads.com/book/show/18007564-the-martian"><img alt="The Martian" border="0" src="https://images.gr-assets.com/books/1413706054s/18007564.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="The Last Lecture" href="https://www.goodreads.com/book/show/2318271.The_Last_Lecture"><img alt="The Last Lecture" border="0" src="https://images.gr-assets.com/books/1388075896s/2318271.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="The Power of Habit: Why We Do What We Do in Life and Business" href="https://www.goodreads.com/book/show/12609433-the-power-of-habit"><img alt="The Power of Habit: Why We Do What We Do in Life and Business" border="0" src="https://images.gr-assets.com/books/1366758683s/12609433.jpg" /></a></div>
-                        <noscript><br/>Share <a href="/">book reviews</a> and ratings with Bibek, and even join a <a href="/group">book club</a> on Goodreads.</noscript>
-                      </div>
-                    </div>
-                    <script src="https://www.goodreads.com/review/grid_widget/14950840.Recent%20reads?cover_size=medium&hide_link=&hide_title=&num_books=7&order=d&shelf=read&sort=date_read&widget_id=1482116183" type="text/javascript" charset="utf-8"></script>
-                  </div>
-                </div>
-                <div class="shelf-bottom"></div>
-              </div>
-            </div>
-            <!-- <div class="shelf-image"><img src="images/shelf.png"></div> -->
-
-
-
-
-          </div>
-        </div>
-        <div class="md-half cell" id="videos">
-          <div class="container vertical-padding">
-            <p>Or making vlogs of my adventures.</p>
-            <h1 id="video-title">Lake Tahoe Trip 2016</h1>
-            <div class="flex flex-wrap">
-              <div class="fb-video"
-                data-href="https://www.facebook.com/bibekgg/videos/10211420170289499/?l=4813687095849147049"
-                data-width="500"
-                data-allowfullscreen="true"
-                data-autoplay="false"
-                data-show-captions="true"></div>
-              <div class="video-options">
-                <ul class="list" id="video-selector">
-                  <li>Lake Tahoe Trip 2016</li>
-                  <li>Surprise Visit Home</li>
-                </ul>
-            </div>
-          </div>
-        </div>
-        <div class="md-half cell" id="blog">
-          <div class="container vertical-padding">
-            <p>Or writing a blog post on something I'm passionate about.</p>
-
-            <ul class="list" id="blog-post-links">
-              <li class="blog-post-link">
-                <a href="https://bibekghim.wordpress.com/2016/12/17/skip-class/">
-                  Skip Class
-                </a>
-              </li>
-              <li class="blog-post-link">
-                <a href="https://bibekghim.wordpress.com/2016/10/12/ocean-of-habits/">
-                  Ocean of Habits
-                </a>
-              </li>
-
-              <li class="blog-post-link">
-                <a href="https://bibekghim.wordpress.com/2016/09/01/more-than-just-a-programmer/">
-                  More Than Just a Programmer
-                </a>
-              </li>
-
-              <li class="blog-post-link">
-                <a href="https://bibekghim.wordpress.com/2016/08/09/the-short-kid/">
-                  The Short Kid
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <hr>
-
-  <section id="projects" class="scrollspy">
-    <div class="section-description red" id="what-ive-done">
-      <!-- <div class="container"> -->
-        <h1>What I've Done </h1>
-
-        <p>In my projects, I've taken a look at areas of
-          people's lives (including my own) that could be
-          enhanced by expressive web and mobile
-          experiences. I make it a priority to create
-          user experiences that are minimal
-          yet functional.</p>
-        <!-- </div> -->
-    </div>
-
-    <div id="project-items">
-      <!-- The Coding School -->
-      <div class="cell project" id="proj-tcs">
-        <div class="container flex project-header">
-          <div>
-            <h1><a href="http://bibekg.github.io/the-coding-school">The Coding School</a></h1>
-            <h2>Website Redesign</h2>
-          </div>
-          <div><a href="http://bibekg.github.io/the-coding-school">
-            <img class="project-logo" src="images/tcs-logo.png">
-          </a></div>
-        </div>
-        <div class="flex wrap project-description">
-          <div class="image">
-            <div class="container">
-              <a href="http://bibekg.github.io/the-coding-school">
-                <img class="banner" src="images/tcs.png">
-              </a>
-            </div>
-          </div>
-          <div class="info">
-            <div class="container text-block">
-              <p>I redesigned the website for The Coding School (an organization that aims to empower youth with coding eduction) with a more modern and friendly user interface/experience.</p>
-              <p><strong>Technologies Used:</strong><br>ReactJS</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cell project" id="proj-vla">
-        <div class="container flex project-header">
-          <div>
-            <h1><a href="http://www.visualizingla.com/">Visualizing LA</a></h1>
-            <h2>Data Visualization</h2>
-          </div>
-          <div><a href="http://uclacreatives.github.io">
-            <img class="project-logo" src="images/creativelabs-light.png">
-          </a></div>
-        </div>
-        <div class="flex wrap project-description">
-          <div class="image">
-            <div class="container">
-              <a href="http://www.visualizingla.com/">
-                <img class="banner" src="images/VLA1.png">
-              </a>
-            </div>
-          </div>
-          <div class="info">
-            <div class="container text-block">
-              <p>This project aimed to tell a story of LA's
-                transportation: from driving, to parking,
-                to flyout out of the city -- we at UCLA Creative
-                Labs dived into tons of raw data to derive some
-                interesting insights.</p>
-            </div>
-          </div>
-          <div class="image">
-            <div class="container">
-              <img class="banner" src="images/VLA2.png">
-            </div>
-          </div>
-          <div class="info">
-            <div class="container text-block">
-              <p>I designed and developed a
-                <a href="http://www.visualizingla.com/lax-traffic">visualization</a>
-                that analyzed ground and air traffic at LAX.</p>
-
-              <p><strong>Technologies Used:</strong><br>
-                D3.js, SVG manipulation, GSAP TweenMax</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Hyliter -->
-      <div class="cell project" id="proj-hyliter">
-        <div class="container flex project-header">
-          <div>
-            <a href="https://chrome.google.com/webstore/detail/hyliter/nhiannhalledfohikpmbclkalcknilcg">
-              <h1>Hyliter</h1>
-            </a>
-            <h2>Google Chrome Extension</h2>
-          </div>
-          <div>
-            <a href="https://chrome.google.com/webstore/detail/hyliter/nhiannhalledfohikpmbclkalcknilcg">
-              <img class="project-logo" src="images/chrome-web-store.png">
-            </a>
-          </div>
-        </div>
-        <div class="flex wrap project-description">
-          <div class="image">
-            <div class="container">
-              <img class="banner" src="images/hyliter.png">
-            </div>
-          </div>
-          <div class="info">
-            <div class="container text-block">
-              <p>A lightweight Google Chrome extension to save short notes,
-                quotes from articles, order confirmation numbers, and anything
-                else you find interesting while browsing in Google Chrome.</p>
-
-              <p><strong>Technologies Used:</strong><br>
-                HTML/CSS, Javascript</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CubeTime -->
-      <div class="cell project" id="proj-cubetime">
-        <div class="container flex project-header">
-          <div>
-            <h1><a href="http://www.github.com/bibekg/CubeTime">CubeTime</a></h1>
-            <h2>iOS (Swift) application</h2>
-          </div>
-          <div>
-            <img class="project-logo" src="images/cubetime-icon.png">
-          </div>
-        </div>
-        <div class="flex wrap project-description">
-          <div class="image">
-            <div class="container">
-              <a href="http://www.github.com/bibekg/CubeTime">
-                <img class="banner" src="images/cubetime-preview.png">
-              </a>
-            </div>
-          </div>
-          <div class="info">
-            <div class="container text-block">
-              <p>An iOS app for speedcubers who want to time their solves
-                and keep track of their solve times and statistics.</p>
-
-              <p><strong>Technologies Used:</strong><br>
-                Swift/XCode, CoreData</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Let's Chill -->
-      <div class="cell project" id="proj-letschill">
-        <div class="container flex horizontal project-header">
-          <div>
-            <h1><a href="http://github.com/bibekg/lets-chill">Let's Chill</a></h1>
-            <h2>Web App</h2>
-          </div>
-          <!-- <div><img class="project-logo" src="images/cubetime-icon.png"></div> -->
-        </div>
-        <div class="flex wrap project-description">
-          <div class="image">
-            <div class="container">
-              <a href="http://www.github.com/bibekg/lets-chill">
-                <img class="banner" src="images/letschill.png">
-              </a>
-            </div>
-          </div>
-          <div class="info">
-            <div class="container text-block">
-              <p>A web app for the socially lazy. Allows you to make
-                a plan by entering as few details as you want.</p>
-
-                <p>I worked on the majority of the front-end and design
-                  of the website.</p>
-
-              <p><strong>Technologies Used:</strong><br>
-                HTML/CSS/Bootstrap, Javascript</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <hr>
-
-  <section id="contact" class="scrollspy">
-    <div class="section-description red">
-      <h1 class="text-center section-title">Let's Get in Touch</h1>
-        <div id="contact-form">
-            <form action="https://formspree.io/bibekg@ucla.edu" method="POST">
-                <div class="form-group flex">
-                  <div><p>Hi! My name is </p></div>
-                  <div><input type="text" name="name" class="form-control" placeholder="First & Last"></div>
-                  <div><p>.</p></div>
-                </div>
-                <div class="form-group">
-                    <textarea name="message" class="form-control" rows="5"
-                      placeholder="Whether you have questions about anything on this page or perhaps just want to talk about life, shoot me a message and I'll try my best to reply!"></textarea>
-                </div>
-                <div class="form-group flex">
-                  <div><p>You can reach me at</p></div>
-                  <div><input type="email" name="sender" class="form-control" placeholder="abc@email.com"></div>
-                  <div><p>.</p></div>
-                </div>
-                <input class="submit button" type="submit" value="Send">
-                <input type="hidden" name="_next" value="index.html" />
-            </form>
-        </div>
-    </div>
-  </section>
-
-  <hr>
-
-</div>
-
-<footer>
-
-  <p>Connect with me below!</p>
-
-  <div id="social-links" class="flex">
-      <div class="social-item">
-        <a href="http://www.facebook.com/bibekgg">
-          <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
-        </a>
-      </div>
-
-      <div class="social-item">
-        <a href="http://www.instagram.com/bibek_g">
-          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
-        </a>
-      </div>
-
-      <div class="social-item">
-        <a href="http://www.linkedin.com/in/bibekg">
-          <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-      </div>
-
-      <div class="social-item">
-        <a href="http://www.github.com/bibekg">
-          <i class="fa fa-2x fa-github-square" aria-hidden="true"></i>
-        </a>
-      </div>
-  </div>
-
-</footer>
-
-<!-- <link rel="stylesheet" type="text/css" href="css/materialize.min.css"> -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89695975-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+	</div>
 </body>
+</html>
